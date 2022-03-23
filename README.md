@@ -1,11 +1,12 @@
 # Java-Patika
 /*
-Kullanıcıdan alınan para değerinin KDV'li fiyatını ve
+Kullanıcıdan alınan para değerinin KDV'li fiyatını ve 
 KDV tutarını hesaplayıp ekrana bastıran program 
  */
 
 import java.util.Scanner;
-public class patikaOrn2{
+
+public class kdvHesaplayicisi{
     public static void main(String[] args) {
 
         float fiyat, kdv, kdvliFiyat, kdvTutari;
