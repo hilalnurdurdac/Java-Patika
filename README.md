@@ -7,7 +7,9 @@ KDV tutarını hesaplayıp ekrana bastıran program
 import java.util.Scanner;
 
 public class kdvHesaplayicisi{
-    public static void main(String[] args) {
+
+    public static void main(String[] args) 
+    {
 
         float fiyat, kdv, kdvliFiyat, kdvTutari;
 
