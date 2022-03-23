@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner deger = new Scanner(System.in);
+        
+        int a,b,c;                                                       //Degiskenleri int olarak ayarliyoruz.
+        
+        System.out.println("Lutfen a kenar uzunlugunu giriniz : ");      //A kenar uzunlugunu input olarak istiyoruz.
+        a = deger.nextInt();                                            //Gelen input degerini degiskene esitliyoruz.
+        System.out.println("Lutfen b kenar uzunlugunu giriniz : ");      
+        b = deger.nextInt();                                                      
+        System.out.println("Lutfen c kenar uzunlugunu giriniz : ");    
+        c = deger.nextInt();                                                      
+
+        
+        int cevre=(akenar+bkenar+ckenar);   //Cevreyi buluyoruz.
+        int form1=cevre/2;                  //Cevreyi formule uyduruyoruz.
+        int form2=(form1)*(form1-akenar)*(form1-bkenar)*(form1-ckenar); //Alan icin formul olusturuyoruz.
+        double alan=Math.sqrt(form2);       //Alani buluyoruz.
+        
+        System.out.println("Ucgenimizin a kenar uzunlugu : " + akenar +"cm, b kenar uzunlugu : " + bkenar +"cm, c kenar uzunlugu : "+ ckenar +"cm seklindedir.");     //Urun fiyatini yazdiriyoruz.
+        System.out.println("Ucgenimizin cevresi : " + cevre +" seklindedir.");     //Urun fiyatini yazdiriyoruz.
+        System.out.println("Ucgenimizin alanı : " + alan +" seklindedir.");     //Urun fiyatini yazdiriyoruz.
+    }
+}
